@@ -22,12 +22,25 @@ body {
     justify-content: right;
 }
 
-.celular {
+.frame {
     position: absolute;
+    background-image: url("/images/frame-iphone.png");
+    background-position: center center;
+    background-size: cover;
     top: 50%;
     left: 50%;
     translate: -50% -50% ;
     height: 500px;
+    width: 245px;
+}
+
+.tela {
+    position: relative;
+    top: 63.7px;
+    left: 16.6px;
+    width: 213px;
+    height: 375px;
+
 }
 
 .main {
@@ -48,4 +61,14 @@ body {
 .logo {
     width: 40px;
     margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.485);
+    box-sizing: border-box;
+}
+
+.logo:hover {
+    border: 2px solid rgba(255, 255, 255);
+    transform: translate(-3px, -3px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.485);
+    transition: transform 0.2s;
 }
