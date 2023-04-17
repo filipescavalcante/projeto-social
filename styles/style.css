@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/fundo-madeira.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    justify-content: right;
+}
+
+.celular {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50% ;
+    height: 500px;
+}
+
+.main {
+    position: absolute;
+    top: 50.4%;
+    left: 50%;
+    translate: -50% -50% ;
+    height: 376px;
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin: 15px;
+}
+
+.logo {
+    width: 40px;
+    margin: 10px;
+}
