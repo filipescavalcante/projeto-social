@@ -24,7 +24,7 @@ body {
 
 .frame {
     position: absolute;
-    background-image: url("/images/frame-iphone.png");
+    background-image: url("../images/frame-iphone.png");
     background-position: center center;
     background-size: cover;
     top: 50%;
